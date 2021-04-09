@@ -1,0 +1,51 @@
+body{
+  /* Location of the image */
+  background-image: url(../src/asserts/p.jpg);
+  /* height: auto; */
+  /* Background image is centered vertically and horizontally at all times */
+  /* background-position: center center;
+   */
+  /* Background image doesn’t tile */
+  /* background-repeat: no-repeat; */
+  
+  /* Background image is fixed in the viewport so that it doesn’t move when
+  the content’s height is greater than the image’s height */
+
+  
+  /* This is what makes the background image rescale based
+  on the container’s size */
+  background-size: 100% 100%;
+
+  /* Set a background color that will be displayed
+  while the background image is loading */
+  /* background-color: #464646; */
+  
+}
+div.modal-content{
+  background: rgb(161 165 198);
+  
+}
+.modal-header{
+ border-color: #122b79;
+}
+.modal-content
+{
+  height: 150px;
+}
+.mShare{
+  margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    position: relative;
+    left: 20%;
+}
+div.a.modal-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+    
